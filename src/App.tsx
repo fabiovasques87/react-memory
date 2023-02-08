@@ -137,6 +137,7 @@ function App() {
           <C.LogoLink href="">
             <img src={logoImage} width="200" alt="" />
           </C.LogoLink>
+          Desenvolvido por Fábio Vasques
           <C.InfoArea>
             <InfoItem label='Tempo' value={formatTimeElapsed(timeElapsed)}/>
             <InfoItem label='Movimentos' value={moveCount.toString()}/>
